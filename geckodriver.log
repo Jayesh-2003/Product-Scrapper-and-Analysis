@@ -1,0 +1,1174 @@
+1681494821190	geckodriver	INFO	Listening on 127.0.0.1:54351
+1681494825621	geckodriver	INFO	Listening on 127.0.0.1:54362
+1681495272322	geckodriver	INFO	Listening on 127.0.0.1:54393
+1681495278476	geckodriver	INFO	Listening on 127.0.0.1:54403
+1681495391709	geckodriver	INFO	Listening on 127.0.0.1:54466
+1681495422832	geckodriver	INFO	Listening on 127.0.0.1:54485
+1681495595588	geckodriver	INFO	Listening on 127.0.0.1:54530
+1681498024283	geckodriver	INFO	Listening on 127.0.0.1:55009
+1681498027333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless=new" "--remote-debugging-port"  ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilePnnSLg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681498028081	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681498028092	Marionette	INFO	Listening on port 55017
+Read port: 55017
+console.error: "Warning: unrecognized command line flag -headless\n"
+WebDriver BiDi listening on ws://127.0.0.1:55010
+1681498028527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilePnnSLg\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55010/devtools/browser/823c325d-cfcd-40d2-b495-50ccdc323a0c
+1681498046289	Marionette	INFO	Stopped listening on port 55017
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681498079134	geckodriver	INFO	Listening on 127.0.0.1:55134
+1681498082181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless=new" "--remote-debugging-port"  ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileMlD23K"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681498082956	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681498082965	Marionette	INFO	Listening on port 55142
+console.error: "Warning: unrecognized command line flag -headless\n"
+Read port: 55142
+WebDriver BiDi listening on ws://127.0.0.1:55135
+1681498083312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileMlD23K\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55135/devtools/browser/f577e143-104f-43a4-8ec6-fe4e7d5d57f0
+1681498103965	Marionette	INFO	Stopped listening on port 55142
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681498392849	geckodriver	INFO	Listening on 127.0.0.1:55276
+1681498395938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless=new" "--remote-debugging-port"  ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilezy9za5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681498396637	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681498396648	Marionette	INFO	Listening on port 55284
+Read port: 55284
+console.error: "Warning: unrecognized command line flag -headless\n"
+WebDriver BiDi listening on ws://127.0.0.1:55277
+1681498397081	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilezy9za5\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55277/devtools/browser/72167abe-a416-4730-b270-5ea1db5dd17a
+1681498413387	Marionette	INFO	Stopped listening on port 55284
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681498421673	geckodriver	INFO	Listening on 127.0.0.1:55380
+1681498424723	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless=new" "--remote-debugging-port"  ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile1rLCOJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681498425505	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681498425512	Marionette	INFO	Listening on port 55388
+Read port: 55388
+console.error: "Warning: unrecognized command line flag -headless\n"
+WebDriver BiDi listening on ws://127.0.0.1:55381
+1681498425825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile1rLCOJ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55381/devtools/browser/f0e5a012-d26b-4de8-b9f1-bc8c9a9b6800
+1681498433940	Marionette	INFO	Stopped listening on port 55388
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681501637623	geckodriver	INFO	Listening on 127.0.0.1:56335
+1681501640696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56336" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileIQnczM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681501641707	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681501641715	Marionette	INFO	Listening on port 56343
+Read port: 56343
+WebDriver BiDi listening on ws://127.0.0.1:56336
+1681501641961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileIQnczM\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56336/devtools/browser/91ff6987-e006-4117-8de1-648f6bd5cfc6
+1681501984649	geckodriver	INFO	Listening on 127.0.0.1:56516
+1681501987727	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile6WQ4Bh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681501988086	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681501988091	Marionette	INFO	Listening on port 56524
+WebDriver BiDi listening on ws://127.0.0.1:56517
+Read port: 56524
+1681501988298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile6WQ4Bh\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56517/devtools/browser/41f0ca30-59c3-4a5a-b814-e1f14b3978b2
+1681501992698	Marionette	INFO	Stopped listening on port 56524
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1
+1681501995734	geckodriver	INFO	Listening on 127.0.0.1:56582
+1681501998794	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileHgiGTN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681501999240	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681501999244	Marionette	INFO	Listening on port 56593
+WebDriver BiDi listening on ws://127.0.0.1:56583
+Read port: 56593
+1681501999502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileHgiGTN\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56583/devtools/browser/d1e4e16f-7478-4919-b195-4479e87ebc1f
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502007669	Marionette	INFO	Stopped listening on port 56593
+Dynamically enable window occlusion 1
+1681502068873	geckodriver	INFO	Listening on 127.0.0.1:56747
+1681502071930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile0WNk3d"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502072573	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502072580	Marionette	INFO	Listening on port 56755
+Read port: 56755
+WebDriver BiDi listening on ws://127.0.0.1:56748
+1681502072783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile0WNk3d\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56748/devtools/browser/df0661c4-fdc2-4114-9aa6-2c15ace38d7d
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502078583	Marionette	INFO	Stopped listening on port 56755
+Dynamically enable window occlusion 1
+1681502081787	geckodriver	INFO	Listening on 127.0.0.1:56811
+1681502084838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "56812" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileOK9wLS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502085560	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502085568	Marionette	INFO	Listening on port 56819
+Read port: 56819
+WebDriver BiDi listening on ws://127.0.0.1:56812
+1681502085774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileOK9wLS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56812/devtools/browser/028e2f01-706a-4208-89d7-3a4c2ebe6097
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502094807	Marionette	INFO	Stopped listening on port 56819
+Dynamically enable window occlusion 1
+1681502883017	geckodriver	INFO	Listening on 127.0.0.1:57015
+1681502886070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57016" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecsdAIU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502886446	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502886449	Marionette	INFO	Listening on port 57023
+WebDriver BiDi listening on ws://127.0.0.1:57016
+Read port: 57023
+1681502886673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecsdAIU\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57016/devtools/browser/ed464619-19cd-4ff6-84fa-9432258f5ddd
+1681502890449	Marionette	INFO	Stopped listening on port 57023
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502893208	geckodriver	INFO	Listening on 127.0.0.1:57080
+1681502896290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57081" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilepjPRdi"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502896616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502896619	Marionette	INFO	Listening on port 57089
+Read port: 57089
+WebDriver BiDi listening on ws://127.0.0.1:57081
+1681502896730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilepjPRdi\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57081/devtools/browser/6333d6bb-4558-4303-a355-2d767792f4bf
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502904792	Marionette	INFO	Stopped listening on port 57089
+Dynamically enable window occlusion 1
+1681502948036	geckodriver	INFO	Listening on 127.0.0.1:57214
+1681502951097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9eWict"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502951537	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502951541	Marionette	INFO	Listening on port 57222
+WebDriver BiDi listening on ws://127.0.0.1:57215
+Read port: 57222
+1681502951791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9eWict\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57215/devtools/browser/9de812eb-7460-494e-b064-51685dfe7378
+1681502955573	Marionette	INFO	Stopped listening on port 57222
+Dynamically enable window occlusion 1
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 572))
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 587: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1681502958292	geckodriver	INFO	Listening on 127.0.0.1:57273
+1681502961348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileEfVRjI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681502961667	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681502961671	Marionette	INFO	Listening on port 57281
+Read port: 57281
+WebDriver BiDi listening on ws://127.0.0.1:57274
+1681502961781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileEfVRjI\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57274/devtools/browser/86d8dfea-87af-471b-9cda-868de83a5bc7
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681502970081	Marionette	INFO	Stopped listening on port 57281
+Dynamically enable window occlusion 1
+1681503297709	geckodriver	INFO	Listening on 127.0.0.1:57464
+1681503300779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8KrAiL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503301124	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503301128	Marionette	INFO	Listening on port 57472
+WebDriver BiDi listening on ws://127.0.0.1:57465
+Read port: 57472
+1681503301377	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8KrAiL\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57465/devtools/browser/d0bf3811-d86c-4817-b092-80598ef49ceb
+1681503306471	Marionette	INFO	Stopped listening on port 57472
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503309389	geckodriver	INFO	Listening on 127.0.0.1:57542
+1681503312451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57543" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilepoCGWd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503312805	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503312809	Marionette	INFO	Listening on port 57550
+WebDriver BiDi listening on ws://127.0.0.1:57543
+Read port: 57550
+1681503313050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilepoCGWd\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57543/devtools/browser/e0f33b78-3d2f-492f-a7bc-fbe36c3c4a8d
+1681503317714	Marionette	INFO	Stopped listening on port 57550
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503372800	geckodriver	INFO	Listening on 127.0.0.1:57613
+1681503375831	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57614" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileE3cUEI"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503376169	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503376174	Marionette	INFO	Listening on port 57621
+WebDriver BiDi listening on ws://127.0.0.1:57614
+Read port: 57621
+1681503376422	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileE3cUEI\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57614/devtools/browser/0297d22a-c9a4-4ffe-9454-3f1f5f514af5
+1681503380684	Marionette	INFO	Stopped listening on port 57621
+Dynamically enable window occlusion 1
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 572))
+1681503383534	geckodriver	INFO	Listening on 127.0.0.1:57693
+1681503386608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57694" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileNxw2FD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503386941	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503386945	Marionette	INFO	Listening on port 57701
+WebDriver BiDi listening on ws://127.0.0.1:57694
+Read port: 57701
+1681503387182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileNxw2FD\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57694/devtools/browser/ad3663cb-e3b1-4b14-9b4c-343a7bd24821
+1681503393044	Marionette	INFO	Stopped listening on port 57701
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503428233	geckodriver	INFO	Listening on 127.0.0.1:57777
+1681503431290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileyP9Jvq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503431628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503431632	Marionette	INFO	Listening on port 57785
+WebDriver BiDi listening on ws://127.0.0.1:57778
+Read port: 57785
+1681503431875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileyP9Jvq\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57778/devtools/browser/416a17b9-1f48-43fa-abb2-4e7edb40630d
+1681503435888	Marionette	INFO	Stopped listening on port 57785
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 572))
+1681503438651	geckodriver	INFO	Listening on 127.0.0.1:57839
+1681503441720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57840" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileTUCe2x"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503442057	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503442061	Marionette	INFO	Listening on port 57847
+WebDriver BiDi listening on ws://127.0.0.1:57840
+Read port: 57847
+1681503442298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileTUCe2x\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57840/devtools/browser/20cc8428-8f04-4cf6-bb9b-c56b81fdc7fc
+1681503446213	Marionette	INFO	Stopped listening on port 57847
+Dynamically enable window occlusion 1
+1681503470485	geckodriver	INFO	Listening on 127.0.0.1:57903
+1681503473517	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57904" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9KQH3u"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503473864	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503473867	Marionette	INFO	Listening on port 57911
+WebDriver BiDi listening on ws://127.0.0.1:57904
+Read port: 57911
+1681503474124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9KQH3u\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57904/devtools/browser/5d70c66c-ca89-4fcd-9660-d725455af3c1
+1681503479229	Marionette	INFO	Stopped listening on port 57911
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503482003	geckodriver	INFO	Listening on 127.0.0.1:57980
+1681503485057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "57981" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileXNkKa9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503485374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503485378	Marionette	INFO	Listening on port 57988
+Read port: 57988
+WebDriver BiDi listening on ws://127.0.0.1:57981
+1681503485487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileXNkKa9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57981/devtools/browser/543dfe8a-9253-4601-a5d0-c56d0ecb6486
+1681503489754	Marionette	INFO	Stopped listening on port 57988
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503536922	geckodriver	INFO	Listening on 127.0.0.1:58041
+1681503539989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58042" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5F7KAK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503540307	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503540311	Marionette	INFO	Listening on port 58049
+Read port: 58049
+WebDriver BiDi listening on ws://127.0.0.1:58042
+1681503540418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5F7KAK\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58042/devtools/browser/8219ea38-c7e9-4fa4-9dfb-e0776aae478d
+1681503544609	Marionette	INFO	Stopped listening on port 58049
+Dynamically enable window occlusion 1
+1681503547287	geckodriver	INFO	Listening on 127.0.0.1:58099
+1681503550299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58100" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileBF6wrg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503550633	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503550637	Marionette	INFO	Listening on port 58107
+Read port: 58107
+WebDriver BiDi listening on ws://127.0.0.1:58100
+1681503550751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileBF6wrg\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58100/devtools/browser/83f13819-ef7b-4f31-9356-043619179227
+1681503554778	Marionette	INFO	Stopped listening on port 58107
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/Poco-Pro-Laser-Blue-128GB/dp/B0BGSTQC97/ref=sr_1_3?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco+x4+5g+mobile&qid=1681499190&sr=8-3 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503589977	geckodriver	INFO	Listening on 127.0.0.1:58158
+1681503593024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile2Ly9bP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503593347	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503593351	Marionette	INFO	Listening on port 58166
+Read port: 58166
+WebDriver BiDi listening on ws://127.0.0.1:58159
+1681503593464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile2Ly9bP\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58159/devtools/browser/2b2f84ba-653b-4bbc-b231-7aaaa88819b0
+1681503598050	Marionette	INFO	Stopped listening on port 58166
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.amazon.in/POCO-Laser-Black-128GB-Storage/dp/B0B66VZ7Y5/ref=sr_1_2?adgrpid=68689939129&ext_vrnc=hi&hvadid=398133964502&hvdev=c&hvlocphy=9062116&hvnetw=g&hvqmt=b&hvrand=4245848158396596627&hvtargid=kwd-1658300957476&hydadcr=24566_1971421&keywords=poco%2Bx4%2B5g%2Bmobile&qid=1681499190&sr=8-2&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681503601063	geckodriver	INFO	Listening on 127.0.0.1:58219
+1681503604094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "58220" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecmtgFK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681503604417	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681503604422	Marionette	INFO	Listening on port 58228
+Read port: 58228
+WebDriver BiDi listening on ws://127.0.0.1:58220
+1681503604535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecmtgFK\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58220/devtools/browser/cfdf37c6-2406-4677-8c62-e787d3f17700
+1681503608649	Marionette	INFO	Stopped listening on port 58228
+Dynamically enable window occlusion 1
+1681921921173	geckodriver	INFO	Listening on 127.0.0.1:59151
+1681921924248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59152" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileSS9M30"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681921924755	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681921924759	Marionette	INFO	Listening on port 59161
+Read port: 59161
+WebDriver BiDi listening on ws://127.0.0.1:59152
+1681921924883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileSS9M30\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59152/devtools/browser/5d330e47-d321-4d5f-96d5-da8e0ecd3106
+1681921933163	Marionette	INFO	Stopped listening on port 59161
+JavaScript warning: https://www.amazon.in/dp/B0BSNNYHY5?ref_=cm_sw_r_cp_ud_dp_4CYZ0CJR6HMQQ676DPX4&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1
+1681921936122	geckodriver	INFO	Listening on 127.0.0.1:59241
+1681921939185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "59242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilel7018A"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681921939610	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681921939613	Marionette	INFO	Listening on port 59251
+Read port: 59251
+WebDriver BiDi listening on ws://127.0.0.1:59242
+1681921939716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilel7018A\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59242/devtools/browser/53c0ef65-bbf1-47df-9aa2-ac58a705eeee
+1681921945718	Marionette	INFO	Stopped listening on port 59251
+JavaScript warning: https://www.amazon.in/dp/B09ZBFD6TJ?ref_=cm_sw_r_cp_ud_dp_JHM5B5T1XXKH307C3H2E line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Dynamically enable window occlusion 1
+1681926839080	geckodriver	INFO	Listening on 127.0.0.1:61874
+1681926842153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61875" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilextEtLx"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681926842644	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681926842649	Marionette	INFO	Listening on port 61883
+Read port: 61883
+WebDriver BiDi listening on ws://127.0.0.1:61875
+1681926842789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilextEtLx\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61875/devtools/browser/c44412ba-76c2-447e-abfe-02d4083601f9
+JavaScript warning: https://www.amazon.in/dp/B09TWGDY4W?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_N5FYSW4SW1AT52S2T5C8 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681926851518	Marionette	INFO	Stopped listening on port 61883
+Dynamically enable window occlusion 1
+1681926858377	geckodriver	INFO	Listening on 127.0.0.1:61967
+1681926861420	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "61968" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileK466mS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681926861738	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681926861741	Marionette	INFO	Listening on port 61976
+Read port: 61976
+WebDriver BiDi listening on ws://127.0.0.1:61968
+1681926861850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileK466mS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61968/devtools/browser/c71a3dee-1471-4d93-b47a-6c0d4f9629fe
+JavaScript warning: https://www.amazon.in/dp/B09XB7SRQ5?ref_=cm_sw_r_cp_ud_dp_XPENNHECZJ823B9DJAHX line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681926870730	Marionette	INFO	Stopped listening on port 61976
+Dynamically enable window occlusion 1
+1681926873451	geckodriver	INFO	Listening on 127.0.0.1:62076
+1681926876525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62077" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecYOauc"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681926876832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681926876836	Marionette	INFO	Listening on port 62086
+Read port: 62086
+WebDriver BiDi listening on ws://127.0.0.1:62077
+1681926876938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilecYOauc\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62077/devtools/browser/c9e5ff87-ec36-4647-b65f-3aa9075a1fef
+JavaScript warning: https://www.amazon.in/dp/B0BMGB2TPR?ref_=cm_sw_r_cp_ud_dp_7W1QNMZKRSA675F76BYH line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927059152	geckodriver	INFO	Listening on 127.0.0.1:62389
+1681927062225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileq4TyM0"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927062645	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927062650	Marionette	INFO	Listening on port 62398
+Read port: 62398
+WebDriver BiDi listening on ws://127.0.0.1:62390
+1681927062754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileq4TyM0\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62390/devtools/browser/be44d07a-c3ff-4236-8391-230104f8ca27
+JavaScript warning: https://www.amazon.in/dp/B09TWGDY4W?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_N5FYSW4SW1AT52S2T5C8 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927072740	Marionette	INFO	Stopped listening on port 62398
+Dynamically enable window occlusion 1
+1681927079586	geckodriver	INFO	Listening on 127.0.0.1:62486
+1681927082658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileR5GCbj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927082968	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927082971	Marionette	INFO	Listening on port 62495
+Read port: 62495
+WebDriver BiDi listening on ws://127.0.0.1:62487
+1681927083076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileR5GCbj\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62487/devtools/browser/a74352e7-7914-45c3-b193-23abd6806106
+JavaScript warning: https://www.amazon.in/dp/B09XB7SRQ5?ref_=cm_sw_r_cp_ud_dp_XPENNHECZJ823B9DJAHX line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927092701	Marionette	INFO	Stopped listening on port 62495
+Dynamically enable window occlusion 1
+1681927095394	geckodriver	INFO	Listening on 127.0.0.1:62571
+1681927098468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileNp6os9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927098778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927098782	Marionette	INFO	Listening on port 62581
+Read port: 62581
+WebDriver BiDi listening on ws://127.0.0.1:62572
+1681927098887	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileNp6os9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62572/devtools/browser/f7c4a0a2-299d-4732-ba56-37b63fe877b9
+JavaScript warning: https://www.amazon.in/dp/B0BMGB2TPR?ref_=cm_sw_r_cp_ud_dp_7W1QNMZKRSA675F76BYH line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927158997	geckodriver	INFO	Listening on 127.0.0.1:62771
+1681927162079	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5xoMgg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927162420	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927162424	Marionette	INFO	Listening on port 62784
+WebDriver BiDi listening on ws://127.0.0.1:62772
+Read port: 62784
+1681927162672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5xoMgg\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62772/devtools/browser/1bb9519d-2558-4045-8dbd-77c70e962ddb
+JavaScript warning: https://www.amazon.in/dp/B09TWGDY4W?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_N5FYSW4SW1AT52S2T5C8 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927171255	Marionette	INFO	Stopped listening on port 62784
+Dynamically enable window occlusion 1
+1681927178078	geckodriver	INFO	Listening on 127.0.0.1:62868
+1681927181156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62869" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileBl8fVJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927181471	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927181476	Marionette	INFO	Listening on port 62878
+Read port: 62878
+WebDriver BiDi listening on ws://127.0.0.1:62869
+1681927181580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileBl8fVJ\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62869/devtools/browser/4f69101e-59e9-41f4-869c-aca859e9a0ad
+JavaScript warning: https://www.amazon.in/dp/B09XB7SRQ5?ref_=cm_sw_r_cp_ud_dp_XPENNHECZJ823B9DJAHX&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927192403	Marionette	INFO	Stopped listening on port 62878
+Dynamically enable window occlusion 1
+1681927195097	geckodriver	INFO	Listening on 127.0.0.1:62970
+1681927198157	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "62971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8XAXCm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927198462	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927198466	Marionette	INFO	Listening on port 62979
+Read port: 62979
+WebDriver BiDi listening on ws://127.0.0.1:62971
+1681927198568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8XAXCm\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62971/devtools/browser/54f389de-f85d-4b27-8949-8d843e6aa823
+JavaScript warning: https://www.amazon.in/dp/B0BMGB2TPR?ref_=cm_sw_r_cp_ud_dp_7W1QNMZKRSA675F76BYH line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927559525	geckodriver	INFO	Listening on 127.0.0.1:63333
+1681927562594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63334" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilezmGHci"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927563011	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927563015	Marionette	INFO	Listening on port 63343
+Read port: 63343
+WebDriver BiDi listening on ws://127.0.0.1:63334
+1681927563234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilezmGHci\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63334/devtools/browser/59ecf3e2-9278-40af-aec2-aad8096a625f
+1681927567917	Marionette	INFO	Stopped listening on port 63343
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+1681927579668	geckodriver	INFO	Listening on 127.0.0.1:63380
+1681927582739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63381" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9P2Lk6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927583074	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927583079	Marionette	INFO	Listening on port 63390
+Read port: 63390
+WebDriver BiDi listening on ws://127.0.0.1:63381
+1681927583251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile9P2Lk6\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63381/devtools/browser/70f41c54-466a-4196-b154-619bb0d6559b
+1681927589432	Marionette	INFO	Stopped listening on port 63390
+Dynamically enable window occlusion 1
+1681927672451	geckodriver	INFO	Listening on 127.0.0.1:63470
+1681927675507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63471" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileFIWQ3x"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927675818	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927675822	Marionette	INFO	Listening on port 63480
+Read port: 63480
+WebDriver BiDi listening on ws://127.0.0.1:63471
+1681927675925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileFIWQ3x\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63471/devtools/browser/dc84ba39-314b-49d4-bb65-5841135ebe74
+JavaScript warning: https://www.amazon.in/dp/B09TWGDY4W?_encoding=UTF8&ref_=cm_sw_r_cp_ud_dp_N5FYSW4SW1AT52S2T5C8&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927688710	Marionette	INFO	Stopped listening on port 63480
+Dynamically enable window occlusion 1
+1681927695543	geckodriver	INFO	Listening on 127.0.0.1:63573
+1681927698604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63574" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilebi0DBj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927698932	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927698936	Marionette	INFO	Listening on port 63582
+WebDriver BiDi listening on ws://127.0.0.1:63574
+Read port: 63582
+1681927699175	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilebi0DBj\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63574/devtools/browser/3dbf2868-8bbb-4ea2-9fa8-276e9d670387
+JavaScript warning: https://www.amazon.in/dp/B09XB7SRQ5?ref_=cm_sw_r_cp_ud_dp_XPENNHECZJ823B9DJAHX&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681927709862	Marionette	INFO	Stopped listening on port 63582
+Dynamically enable window occlusion 1
+1681927712587	geckodriver	INFO	Listening on 127.0.0.1:63661
+1681927715662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "63662" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilejd8qiV"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681927715973	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681927715977	Marionette	INFO	Listening on port 63671
+Read port: 63671
+WebDriver BiDi listening on ws://127.0.0.1:63662
+1681927716079	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofilejd8qiV\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63662/devtools/browser/31d240f0-df20-46dc-a8ba-a5321b0442d5
+JavaScript warning: https://www.amazon.in/dp/B0BMGB2TPR?ref_=cm_sw_r_cp_ud_dp_7W1QNMZKRSA675F76BYH&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681928342508	geckodriver	INFO	Listening on 127.0.0.1:64282
+1681928345577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileerCvnS"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681928345998	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681928346001	Marionette	INFO	Listening on port 64291
+Read port: 64291
+WebDriver BiDi listening on ws://127.0.0.1:64283
+1681928346105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofileerCvnS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64283/devtools/browser/9c28ed0a-7354-4183-986e-d2a2c9a959e0
+JavaScript warning: https://www.amazon.in/dp/B09TWGDY4W?_encoding=UTF8&psc=1&ref_=cm_sw_r_cp_ud_dp_N5FYSW4SW1AT52S2T5C8 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681928374846	Marionette	INFO	Stopped listening on port 64291
+Dynamically enable window occlusion 1
+1681928381797	geckodriver	INFO	Listening on 127.0.0.1:64459
+1681928384870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8itXjA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681928385179	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681928385183	Marionette	INFO	Listening on port 64468
+Read port: 64468
+WebDriver BiDi listening on ws://127.0.0.1:64460
+1681928385287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile8itXjA\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64460/devtools/browser/1b5cac4d-015f-44ec-ae86-8cb99f9981b9
+JavaScript warning: https://www.amazon.in/dp/B09XB7SRQ5?ref_=cm_sw_r_cp_ud_dp_XPENNHECZJ823B9DJAHX&th=1 line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681928418048	Marionette	INFO	Stopped listening on port 64468
+Dynamically enable window occlusion 1
+1681928420752	geckodriver	INFO	Listening on 127.0.0.1:64628
+1681928423812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "64629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5Bva3e"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681928424122	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681928424125	Marionette	INFO	Listening on port 64637
+Read port: 64637
+WebDriver BiDi listening on ws://127.0.0.1:64629
+1681928424226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\krish\\AppData\\Local\\Temp\\rust_mozprofile5Bva3e\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+console.error: ({})
+DevTools listening on ws://127.0.0.1:64629/devtools/browser/cb7ecaaa-68b8-49c6-9adb-ff55e39a20c6
+JavaScript warning: https://www.amazon.in/dp/B0BMGB2TPR?ref_=cm_sw_r_cp_ud_dp_7W1QNMZKRSA675F76BYH line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
